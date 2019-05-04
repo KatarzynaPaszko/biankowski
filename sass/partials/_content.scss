@@ -1,0 +1,136 @@
+// @media only screen and (min-width: 770px) {
+//   .path.navHorizontal li a {
+//     font-size: 1rem;
+//   }
+// }
+
+.about {
+  color: $first-color;
+  margin: 40px 0 60px 0;
+  background-position: 100% 18%;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+}
+
+@media only screen and (max-width: 992px) {
+  .about {
+    background-size: auto 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    background-image: url("")!important;
+  }
+}
+
+
+.titleAbout {
+  font-size: 22px;
+}
+
+.buttonsAbout {
+  height: 100%;
+
+}
+.btnAbout {
+  background-color: $third-color;
+  margin-left: 25px;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+
+// sponsors
+
+.sponsors {
+  border-top: 1px solid lightgrey;
+  padding: 30px 0;
+}
+
+.sponsor img {
+  padding: 30px 30px;
+  &:hover {
+    padding: 25px 30px 35px 30px;
+    opacity: 0.7;
+  }
+}
+
+// movies
+.movies {
+  background-color: $forth-color;
+}
+
+.youTubeLink {
+    padding: 45px 0;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper .video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// news
+
+.news {
+  margin-bottom: 60px;
+}
+
+.newsItem {
+  color: $first-color;
+  margin-top: 60px;
+}
+
+.btnNews {
+  background-color: $third-color;
+}
+
+.biankowski {
+  padding: 60px 0;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width:767px) {
+  .biankowski {
+    background-image: none !important;
+    background-color: $first-color;
+  }
+}
+
+.certificate {
+  // min-height: 400px;
+  & img {
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(97,93,97,1);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(97,93,97,1);
+    box-shadow: 10px 10px 30px 0px rgba(97,93,97,1);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .certificate {
+    display: none;
+  }
+}
+.btnBiankowski {
+  background-color:$forth-color;
+}
+
+.content.contentBiankowski {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: normal;
+}

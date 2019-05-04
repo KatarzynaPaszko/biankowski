@@ -1,0 +1,70 @@
+.footer {
+  background-color: $forth-color;
+  color: white;
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+.btnFooter {
+  background-color: white;
+  color: $first-color;
+}
+
+.footerTitle {
+  font-weight: initial;
+}
+
+.contentFooter {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* Empty attribute selector */
+.btnFooter[href=''] {
+  display: none;
+}
+
+/* Not empty attribute selector */
+.btnFooter:not([href='']) {
+  display: inline-block;
+}
+
+
+.footerNavigation .title {
+  color: white;
+  padding: 15px;
+  margin: 15px 15px 15px 0;
+  font-weight: normal;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.footerBottomRow {
+  margin-top: 40px;
+}
+
+.footerInfo {
+  text-align: right;
+  font-size: 11px;
+  margin: 0 15px;
+  & a {
+    color: white;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footerInfo {
+    text-align: left;
+    margin: 20px 15px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logoBiankowskiFooter {
+    margin: 60px 0;
+  }
+}
